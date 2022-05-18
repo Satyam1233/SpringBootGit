@@ -21,7 +21,7 @@ public class ApplicationController {
         return "SILICON VALLEY | USA";
     }
     @GetMapping("/sanket")
-    public String sanket(){
+    public String saysanket(){
         return "this is created by Sanket";
     }
 
