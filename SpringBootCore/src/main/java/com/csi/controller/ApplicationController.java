@@ -12,5 +12,11 @@ public class ApplicationController {
     public String sayHello(){
         return "Welcome To Amdocs";
     }
+    @GetMapping("/sanket")
+    public String sanket(){
+        return "this is created by Sanket";
+    }
+
+
 
 }
